@@ -1,0 +1,50 @@
+#content1{
+    position: relative;
+    animation: right 1.2s cubic-bezier(0.23, 1, 0.320, 1) 0.2s 1 forwards;
+    left: -600px;
+}
+#content2{
+    position: relative;
+    animation: left 1.2s cubic-bezier(0.23, 1, 0.320, 1) 0.2s 1 backwards;
+    
+}
+#content3{
+    position: relative;
+    animation: right 1.2s cubic-bezier(0.23, 1, 0.320, 1) 0.2s 1 forwards;
+    left: -600px;
+}
+@keyframes right {
+    from{
+      top: 0;
+      left: -600px;  
+    }
+    to{
+        top: 0;
+        left: 0;
+    }
+}
+
+@keyframes left {
+    from{
+      top: 0;
+      left: 1200px;  
+    }
+    to{
+        top: 0;
+        left: 0;
+    }
+}
+
+#content4{
+    position: relative;
+    animation: bottom 1.2s cubic-bezier(0.23, 1, 0.320, 1) 0.2s 1 forwards;
+}
+@keyframes left {
+    from{
+     top: -200px;
+      
+    }
+    to{
+       top: 0;
+    }
+}
